@@ -9,7 +9,7 @@ export default function Showcase() {
         <div className="px-4 py-4 md:px-8 flex items-center justify-between max-w-5xl mx-auto">
           <div className="flex items-center gap-2">
             <div className="text-2xl">🌾</div>
-            <span className="font-semibold text-gray-800">Tiny Harvest</span>
+            <span className="font-semibold text-gray-800">GTWorld-Clone</span>
           </div>
           <div className="hidden md:flex gap-6 text-sm text-gray-600">
             <a href="#" className="hover:text-gray-800">
@@ -218,7 +218,7 @@ export default function Showcase() {
           Made with care
         </h2>
         <p className="text-lg text-gray-600 leading-relaxed">
-          Tiny Harvest is a solo-developed game focused on cozy progression,
+          GT-Clone is a solo-developed game focused on cozy progression,
           satisfying systems and zero pressure. It's built for people who enjoy
           growing something over time – whether that's their farm, their
           expeditions or just a calming daily routine.
@@ -228,7 +228,7 @@ export default function Showcase() {
       {/* Footer */}
       <footer className="px-4 md:px-8 py-12 border-t border-gray-200 max-w-5xl mx-auto">
         <div className="text-center">
-          <p className="text-sm text-gray-500 mb-4">© 2025 Tiny Harvest</p>
+          <p className="text-sm text-gray-500 mb-4">© 2025 GT-Clone Demo</p>
           <div className="flex justify-center gap-6 text-sm text-gray-600 mb-4">
             <a href="#" className="hover:text-gray-800">
               Privacy Policy
@@ -238,7 +238,9 @@ export default function Showcase() {
               Terms of Use
             </a>
           </div>
-          <p className="text-sm text-gray-500">Made with 💚 by Simon</p>
+          <p className="text-sm text-gray-500">
+            Made with 💚 by Rasheed Olatunde
+          </p>
         </div>
       </footer>
     </div>
