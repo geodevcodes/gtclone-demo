@@ -196,7 +196,7 @@ export default function Showcase() {
       {/* Screenshots Section */}
       <section className="px-4 md:px-8 py-16 md:py-24 max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
-          In-game preview
+          In-App preview
         </h2>
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
