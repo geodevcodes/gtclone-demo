@@ -8,7 +8,18 @@ export default function Showcase() {
       <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-[#faf8f3]/80 border-b border-gray-200/50">
         <div className="px-4 py-4 md:px-8 flex items-center justify-between max-w-5xl mx-auto">
           <div className="flex items-center gap-2">
-            <div className="text-2xl">🌾</div>
+            <div className="text-2xl">
+              <Image
+                src={"/brandlogo.png"}
+                width={100}
+                height={100}
+                alt="brandlogo image"
+                priority
+                className="w-full h-10 object-cover"
+                placeholder="blur"
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mN8/PZxPQAIogM0nyRNiQAAAABJRU5ErkJggg=="
+              />
+            </div>
             <span className="font-semibold text-gray-800">GTWorld-Clone</span>
           </div>
           <div className="hidden md:flex gap-6 text-sm text-gray-600">
