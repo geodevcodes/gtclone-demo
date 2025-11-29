@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 const imageUrl = `${process.env.NEXT_PUBLIC_APP_URL}/opengraph-image.png`;
 const APP_NAME = "geodevcodes";
 const APP_DEFAULT_TITLE =
-  "Rasheed Olatunde - Software Developer | React & Next.js | Nest.js Expert";
+  "Rasheed Olatunde - Software Developer | React & Next.js | React-Native (Expo) Expert";
 const APP_TITLE_TEMPLATE = "%s | geodevcodes";
 const APP_DESCRIPTION =
   "Experienced Software Developer with 4+ years of expertise in building high-performance web and mobile applications. Skilled in modern technologies and frameworks to deliver scalable, user-focused solutions. Known for strong leadership and the ability to simplify complex technical concepts for cross-functional teams.";
