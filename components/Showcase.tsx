@@ -1,4 +1,5 @@
-import { Apple, Play } from "lucide-react";
+import { BiLogoPlayStore } from "react-icons/bi";
+import { FaApple } from "react-icons/fa6";
 import Image from "next/image";
 
 export default function Showcase() {
@@ -54,16 +55,15 @@ export default function Showcase() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-4">
-              <button className="bg-black text-white px-6 py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-gray-800 transition">
-                <Apple size={20} />
+              <button className="cursor-pointer bg-black text-white px-6 py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-gray-800 transition">
+                <FaApple size={20} />
                 Download for iOS
               </button>
-              <button className="bg-emerald-600 text-white px-6 py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-emerald-700 transition">
-                <Play size={20} />
+              <button className="cursor-pointer bg-emerald-600 text-white px-6 py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-emerald-700 transition">
+                <BiLogoPlayStore size={20} />
                 Get it on Google Play
               </button>
             </div>
-
             <p className="text-sm text-gray-500">
               iOS & Android • Public beta testing • Full release coming soon
             </p>
