@@ -42,16 +42,14 @@ export default function Showcase() {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
           <div>
             <p className="text-sm text-gray-500 mb-4 uppercase tracking-wide">
-              🌾 Cozy Farming • iOS & Android Beta
+              💳 Digital Banking • iOS & Android App
             </p>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-              Grow your tiny farm, one harvest at a time.
+              Manage your finances, securely and instantly.
             </h1>
 
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              In Tiny Harvest you plant crops, craft goods, complete orders,
-              explore wildlands and go on frontier expeditions – all at your own
-              relaxed pace.
+              With GTWorld-Clone, you can transfer funds, pay bills, manage cards, and monitor your account activity – all from the palm of your hand.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-4">
@@ -65,14 +63,14 @@ export default function Showcase() {
               </button>
             </div>
             <p className="text-sm text-gray-500">
-              iOS & Android • Public beta testing • Full release coming soon
+              iOS & Android • Secure Access • Bank Smarter Today
             </p>
           </div>
 
           <div className="flex justify-center md:justify-end">
             <Image
               src="/showcase1.png"
-              alt="Tiny Harvest phone mockup"
+              alt="GTWorld-Clone phone mockup"
               width={250}
               height={250}
               className="w-full max-w-sm md:max-w-xs"
@@ -82,65 +80,61 @@ export default function Showcase() {
       </section>
 
       {/* Features Section */}
-      <section className="px-4 md:px-8 py-16 md:py-24 max-w-5xl mx-auto">
+      <section className="px-8 md:px-8 py-16 md:py-24 max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
-          Relaxing farming with depth
+          Powerful banking with simplicity
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
           {/* Feature 1 */}
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <div className="text-5xl">🌱</div>
+              <div className="text-5xl">💸</div>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
-              Grow & Craft
+              Instant Transfers
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Plant crops, harvest them, and turn your wheat, corn and veggies
-              into crafted goods in your Mill and Bakery.
+              Send money to accounts across all banks instantly with secure, biometric authorization.
             </p>
           </div>
 
           {/* Feature 2 */}
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <div className="text-5xl">📦</div>
+              <div className="text-5xl">🧾</div>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
-              Fulfill Orders
+              Bill Payments
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Complete villager orders and special contracts for coins and XP to
-              level up your farm.
+              Easily pay utility bills, airtime, and subscriptions from one convenient place.
             </p>
           </div>
 
           {/* Feature 3 */}
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <div className="text-5xl">🌲</div>
+              <div className="text-5xl">🔒</div>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
-              Explore Wildlands
+              Card Management
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Send expeditions into forests and rivers to collect rare materials
-              over time.
+              Freeze, unfreeze, and block your debit and credit cards instantly for enhanced security.
             </p>
           </div>
 
           {/* Feature 4 */}
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <div className="text-5xl">🗺️</div>
+              <div className="text-5xl">📊</div>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
-              Frontier Expedition
+              Account Monitoring
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Progress through regions with your caravan, earn Frontier XP and
-              compete on leaderboards.
+              View your transaction history, account balance, and get real-time alerts on your spending.
             </p>
           </div>
         </div>
@@ -149,46 +143,44 @@ export default function Showcase() {
       {/* Quick Play Section */}
       <section className="px-4 md:px-8 py-16 md:py-24 max-w-5xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
-          Perfect for a few minutes of play
+          Everyday banking essentials
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8 md:gap-12 mb-12">
           {/* Quick Feature 1 */}
           <div>
             <h3 className="text-xl font-semibold text-emerald-600 mb-3">
-              Daily quests & fortune
+              Quick Login & Security
             </h3>
             <p className="text-gray-600">
-              Log in for quick daily goals and rewards.
+              Access your accounts fast with Face ID or fingerprint authentication.
             </p>
           </div>
 
           {/* Quick Feature 2 */}
           <div>
             <h3 className="text-xl font-semibold text-emerald-600 mb-3">
-              Friendly boosts
+              Savings Goals
             </h3>
             <p className="text-gray-600">
-              Help friends and get small crop speed boosts.
+              Set and track personalized savings targets directly within the app.
             </p>
           </div>
 
           {/* Quick Feature 3 */}
           <div>
             <h3 className="text-xl font-semibold text-emerald-600 mb-3">
-              Upgrades
+              Customer Support
             </h3>
             <p className="text-gray-600">
-              Invest coins and materials into barn, fields, animals and
-              wildlands efficiency.
+              Get instant help via in-app chat or find nearest branch/ATM locations.
             </p>
           </div>
         </div>
 
         <div className="bg-emerald-50 border-l-4 border-emerald-600 p-6 rounded-lg max-w-5xl mx-auto">
           <p className="text-gray-700 italic">
-            Tiny Harvest is designed to feel good in short sessions – no energy
-            timers that block progress.
+            GTWorld-Clone is designed for your busy life – bank when you need it, wherever you are. No queues, no hassle.
           </p>
         </div>
       </section>
@@ -202,10 +194,10 @@ export default function Showcase() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {/* Screenshot placeholders */}
           {[
-            { label: "Home view", imageUrl: "/showcase1.png" },
-            { label: "Payments view", imageUrl: "/showcase2.png" },
-            { label: "Products view", imageUrl: "/showcase3.png" },
-            { label: "Home view", imageUrl: "/showcase1.png" },
+            { label: "Accounts Dashboard", imageUrl: "/showcase1.png" },
+            { label: "Transfer Funds", imageUrl: "/showcase2.png" },
+            { label: "Bill Payment", imageUrl: "/showcase3.png" },
+            { label: "Card Services", imageUrl: "/showcase1.png" },
           ].map((screen, idx) => (
             <div key={idx} className="text-center">
               <div className="rounded-3xl aspect-[9/19] mb-4 flex items-center justify-center">
@@ -226,13 +218,10 @@ export default function Showcase() {
       {/* Made with Care Section */}
       <section className="px-4 md:px-8 py-16 md:py-24 max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-          Made with care
+          Built for modern banking
         </h2>
         <p className="text-lg text-gray-600 leading-relaxed">
-          GT-Clone is a solo-developed game focused on cozy progression,
-          satisfying systems and zero pressure. It's built for people who enjoy
-          growing something over time – whether that's their farm, their
-          expeditions or just a calming daily routine.
+          GT-Clone is a demonstration of how a digital banking platform can offer fast, secure, and user-friendly services. It’s designed for customers who want full control over their money management and a seamless banking experience on the go.
         </p>
       </section>
 
