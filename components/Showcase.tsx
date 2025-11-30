@@ -49,7 +49,9 @@ export default function Showcase() {
             </h1>
 
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              With GTWorld-Clone, you can transfer funds, pay bills, manage cards, and monitor your account activity – all from the palm of your hand.
+              With GTWorld-Clone, you can transfer funds, pay bills, manage
+              cards, and monitor your account activity – all from the palm of
+              your hand.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-4">
@@ -95,7 +97,8 @@ export default function Showcase() {
               Instant Transfers
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Send money to accounts across all banks instantly with secure, biometric authorization.
+              Send money to accounts across all banks instantly with secure,
+              biometric authorization.
             </p>
           </div>
 
@@ -108,7 +111,8 @@ export default function Showcase() {
               Bill Payments
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Easily pay utility bills, airtime, and subscriptions from one convenient place.
+              Easily pay utility bills, airtime, and subscriptions from one
+              convenient place.
             </p>
           </div>
 
@@ -121,7 +125,8 @@ export default function Showcase() {
               Card Management
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Freeze, unfreeze, and block your debit and credit cards instantly for enhanced security.
+              Freeze, unfreeze, and block your debit and credit cards instantly
+              for enhanced security.
             </p>
           </div>
 
@@ -134,7 +139,8 @@ export default function Showcase() {
               Account Monitoring
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              View your transaction history, account balance, and get real-time alerts on your spending.
+              View your transaction history, account balance, and get real-time
+              alerts on your spending.
             </p>
           </div>
         </div>
@@ -153,7 +159,8 @@ export default function Showcase() {
               Quick Login & Security
             </h3>
             <p className="text-gray-600">
-              Access your accounts fast with Face ID or fingerprint authentication.
+              Access your accounts fast with Face ID or fingerprint
+              authentication.
             </p>
           </div>
 
@@ -163,7 +170,8 @@ export default function Showcase() {
               Savings Goals
             </h3>
             <p className="text-gray-600">
-              Set and track personalized savings targets directly within the app.
+              Set and track personalized savings targets directly within the
+              app.
             </p>
           </div>
 
@@ -173,14 +181,16 @@ export default function Showcase() {
               Customer Support
             </h3>
             <p className="text-gray-600">
-              Get instant help via in-app chat or find nearest branch/ATM locations.
+              Get instant help via in-app chat or find nearest branch/ATM
+              locations.
             </p>
           </div>
         </div>
 
         <div className="bg-emerald-50 border-l-4 border-emerald-600 p-6 rounded-lg max-w-5xl mx-auto">
           <p className="text-gray-700 italic">
-            GTWorld-Clone is designed for your busy life – bank when you need it, wherever you are. No queues, no hassle.
+            GTWorld-Clone is designed for your busy life – bank when you need
+            it, wherever you are. No queues, no hassle.
           </p>
         </div>
       </section>
@@ -195,12 +205,12 @@ export default function Showcase() {
           {/* Screenshot placeholders */}
           {[
             { label: "Accounts Dashboard", imageUrl: "/showcase1.png" },
-            { label: "Transfer Funds", imageUrl: "/showcase2.png" },
-            { label: "Bill Payment", imageUrl: "/showcase3.png" },
+            { label: "Bill Payment", imageUrl: "/showcase2.png" },
+            { label: "Products", imageUrl: "/showcase3.png" },
             { label: "Card Services", imageUrl: "/showcase1.png" },
           ].map((screen, idx) => (
             <div key={idx} className="text-center">
-              <div className="rounded-3xl aspect-[9/19] mb-4 flex items-center justify-center">
+              <div className="rounded-3xl lg:aspect-[9/19] mb-2 flex items-center justify-center">
                 <Image
                   src={screen.imageUrl}
                   alt="gtbank-clone showcase image"
@@ -221,7 +231,10 @@ export default function Showcase() {
           Built for modern banking
         </h2>
         <p className="text-lg text-gray-600 leading-relaxed">
-          GT-Clone is a demonstration of how a digital banking platform can offer fast, secure, and user-friendly services. It’s designed for customers who want full control over their money management and a seamless banking experience on the go.
+          GT-Clone is a demonstration of how a digital banking platform can
+          offer fast, secure, and user-friendly services. It’s designed for
+          customers who want full control over their money management and a
+          seamless banking experience on the go.
         </p>
       </section>
 
